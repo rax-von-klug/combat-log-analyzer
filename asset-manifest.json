@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/combat-log-anaylzer/static/js/main.90db8f96.chunk.js",
-    "main.js.map": "/combat-log-anaylzer/static/js/main.90db8f96.chunk.js.map",
-    "runtime-main.js": "/combat-log-anaylzer/static/js/runtime-main.d39ab9a5.js",
-    "runtime-main.js.map": "/combat-log-anaylzer/static/js/runtime-main.d39ab9a5.js.map",
-    "static/css/2.d85dd412.chunk.css": "/combat-log-anaylzer/static/css/2.d85dd412.chunk.css",
-    "static/js/2.09f74720.chunk.js": "/combat-log-anaylzer/static/js/2.09f74720.chunk.js",
-    "static/js/2.09f74720.chunk.js.map": "/combat-log-anaylzer/static/js/2.09f74720.chunk.js.map",
-    "index.html": "/combat-log-anaylzer/index.html",
-    "precache-manifest.74ad13322d3d77a2f221c94617f204ec.js": "/combat-log-anaylzer/precache-manifest.74ad13322d3d77a2f221c94617f204ec.js",
-    "service-worker.js": "/combat-log-anaylzer/service-worker.js",
-    "static/css/2.d85dd412.chunk.css.map": "/combat-log-anaylzer/static/css/2.d85dd412.chunk.css.map",
-    "static/js/2.09f74720.chunk.js.LICENSE.txt": "/combat-log-anaylzer/static/js/2.09f74720.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/combat-log-anaylzer/static/media/outline-icons.ef60a4f6.woff"
+    "main.js": "/combat-log-analyzer/static/js/main.90db8f96.chunk.js",
+    "main.js.map": "/combat-log-analyzer/static/js/main.90db8f96.chunk.js.map",
+    "runtime-main.js": "/combat-log-analyzer/static/js/runtime-main.1363f2eb.js",
+    "runtime-main.js.map": "/combat-log-analyzer/static/js/runtime-main.1363f2eb.js.map",
+    "static/css/2.4e8b1831.chunk.css": "/combat-log-analyzer/static/css/2.4e8b1831.chunk.css",
+    "static/js/2.09f74720.chunk.js": "/combat-log-analyzer/static/js/2.09f74720.chunk.js",
+    "static/js/2.09f74720.chunk.js.map": "/combat-log-analyzer/static/js/2.09f74720.chunk.js.map",
+    "index.html": "/combat-log-analyzer/index.html",
+    "precache-manifest.54bf655f8203fda58bf4d7631422796f.js": "/combat-log-analyzer/precache-manifest.54bf655f8203fda58bf4d7631422796f.js",
+    "service-worker.js": "/combat-log-analyzer/service-worker.js",
+    "static/css/2.4e8b1831.chunk.css.map": "/combat-log-analyzer/static/css/2.4e8b1831.chunk.css.map",
+    "static/js/2.09f74720.chunk.js.LICENSE.txt": "/combat-log-analyzer/static/js/2.09f74720.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/combat-log-analyzer/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.d39ab9a5.js",
-    "static/css/2.d85dd412.chunk.css",
+    "static/js/runtime-main.1363f2eb.js",
+    "static/css/2.4e8b1831.chunk.css",
     "static/js/2.09f74720.chunk.js",
     "static/js/main.90db8f96.chunk.js"
   ]
