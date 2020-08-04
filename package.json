@@ -2,7 +2,7 @@
 	"name": "combat-log-analyzer",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://rax-von-klug.github.io/combat-log-anaylzer",
+	"homepage": "https://rax-von-klug.github.io/combat-log-analyzer",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
