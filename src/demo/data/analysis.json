@@ -1,0 +1,96 @@
+{
+	"code": "AAAAAAA",
+	"raid": {
+		"name": "Blackwing Lair",
+		"encounters": [
+			{
+				"id": 1,
+				"name": "Razorgore the Untamed"
+			},
+			{
+				"id": 2,
+				"name": "Vaelastrasz the Corrupt"
+			},
+			{
+				"id": 3,
+				"name": "Broodlord Lashlayer"
+			},
+			{
+				"id": 4,
+				"name": "Firemaw"
+			},
+			{
+				"id": 5,
+				"name": "Ebonroc"
+			},
+			{
+				"id": 6,
+				"name": "Flamegor"
+			},
+			{
+				"id": 7,
+				"name": "Chromaggus"
+			},
+			{
+				"id": 8,
+				"name": "Nefarian"
+			}
+		],
+		"participants": [
+			{
+				"id": 1,
+				"name": "Faelior",
+				"class": "Warrior",
+				"score": 98
+			},
+			{
+				"id": 2,
+				"name": "Serated",
+				"class": "Rogue",
+				"score": 92
+			},
+			{
+				"id": 3,
+				"name": "Waters",
+				"class": "Warrior",
+				"score": 95
+			},
+			{
+				"id": 4,
+				"name": "Nepter",
+				"class": "Mage",
+				"score": 60
+			},
+			{
+				"id": 5,
+				"name": "Begolas",
+				"class": "Paladin",
+				"score": 15
+			},
+			{
+				"id": 6,
+				"name": "Falcorn",
+				"class": "Hunter",
+				"score": 75
+			},
+			{
+				"id": 7,
+				"name": "Frizz",
+				"class": "Warlock",
+				"score": 80
+			},
+			{
+				"id": 8,
+				"name": "Slayerz",
+				"class": "Druid",
+				"score": 96
+			},
+			{
+				"id": 9,
+				"name": "Yunu",
+				"class": "Priest",
+				"score": 89
+			}
+		]
+	}
+}

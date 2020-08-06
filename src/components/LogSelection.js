@@ -13,7 +13,7 @@ const LogSelection = () => {
 	return (
 		<Card centered fluid raised color='green'>
 			<Card.Content>
-				<Card.Header>Enter the Classic WarcraftLogs url or report code you wish to analyze.</Card.Header>
+				<Card.Header textAlign='center'>Enter the Classic WarcraftLogs url or report code you wish to analyze.</Card.Header>
 				<Card.Description textAlign='center'>
 					<Input style={{ width: '75%' }} action={{ icon: 'search', onClick: handleOnClick }} 
 								onChange={ (e, data) => { setLogCode(data.value) } } error={hasError}
