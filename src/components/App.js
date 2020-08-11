@@ -1,19 +1,16 @@
 import _ from 'lodash';
 import React, { useState } from 'react';
-import { Header, Table, Segment, Divider, Icon, Image, Grid, Card, Label, Message } from 'semantic-ui-react';
+import { Header, Table, Segment, Divider, Icon, Image, Grid, Card, Label } from 'semantic-ui-react';
 import TopNav from './TopNav';
-import LogSelection from './LogSelection';
+import ReportCodeEntry from './ReportCodeEntry';
+import { ReportProvider } from '../providers/ReportProvider';
 
 import analysis from '../demo/data/analysis.json';
-import EncounterRow from './EncounterRow';
+import Encounters from './Encounters';
 import { druid, hunter, warlock, paladin, priest, rogue, warrior, mage } from '../assets';
 
 const App = () => {
 	const [selected, setSelected] = useState([]);
-
-	const encounterRows = (chunkedEncounters) => {
-		return (chunkedEncounters.map((rowData, index) => <EncounterRow key={index} encounters={rowData} />));
-	}
 
 	const displayClassImage = (participantClass) => { 
 		switch (participantClass) {
@@ -47,6 +44,7 @@ const App = () => {
 	}
 
 	const ratingColor = (score) => {
+		console.log(score);
 		if (score === 100)
 			return { color: 'pink' }
 		
@@ -90,43 +88,22 @@ const App = () => {
 				<Grid.Row>
 					<Grid.Column width={3}></Grid.Column>
 					<Grid.Column width={10}>
-						<LogSelection />
-						<Message info>
-							<Message.Header>Blackwing Lair - 8/4</Message.Header>
-							<p>
-							We have found your WarcraftLogs report.  Below you will find a list of the boss encounters and also
-							a list of the raid participants with an overall rating.
-							</p>
-							<p>
-							The next step is to select the boss and/or raid participant you wish to anaylze.
-							</p>
-						</Message>
-						<Divider horizontal section>
-							<Header as='h4'>
-								<Icon name='trophy'size='mini' />
-								Encounters
-							</Header>
-						</Divider>
-						<Header attached='top'>{ analysis.raid.name }</Header>
-						<Segment attached>
-							<Table attached basic='very'>
-								<Table.Body>
-									{ encounterRows(_.chunk(analysis.raid.encounters, 3)) }
-								</Table.Body>
-							</Table>
-						</Segment>
-						<Divider horizontal section>
-							<Header as='h4'>
-								<Icon name='user outline' size='mini'/>
-								Participants
-							</Header>
-						</Divider>
-						<Header attached='top'>Raid Members</Header>
-						<Segment attached>
-							<Card.Group itemsPerRow={5}>
-								{ participantCards(analysis.raid.participants) }
-							</Card.Group>
-						</Segment>
+						<ReportProvider>
+							<ReportCodeEntry />
+							<Encounters />
+							<Divider horizontal section>
+								<Header as='h4'>
+									<Icon name='user outline' size='mini'/>
+									Participants
+								</Header>
+							</Divider>
+							<Header attached='top'>Raid Members</Header>
+							<Segment attached>
+								<Card.Group itemsPerRow={5}>
+									{ participantCards(analysis.raid.participants) }
+								</Card.Group>
+							</Segment>
+						</ReportProvider>
 					</Grid.Column>
 					<Grid.Column width={3}></Grid.Column>
 				</Grid.Row>
