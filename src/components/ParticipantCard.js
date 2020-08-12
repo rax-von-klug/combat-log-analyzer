@@ -11,7 +11,7 @@ import {
   rogue,
   warrior,
   mage,
-} from '../assets'
+} from '../assets/class_icons'
 
 const IMAGES = {
   druid,
