@@ -1,23 +1,41 @@
 {
   "files": {
-    "main.js": "/combat-log-analyzer/static/js/main.f4267727.chunk.js",
-    "main.js.map": "/combat-log-analyzer/static/js/main.f4267727.chunk.js.map",
-    "runtime-main.js": "/combat-log-analyzer/static/js/runtime-main.1363f2eb.js",
-    "runtime-main.js.map": "/combat-log-analyzer/static/js/runtime-main.1363f2eb.js.map",
+    "main.js": "/combat-log-analyzer/static/js/main.df905e11.chunk.js",
+    "main.js.map": "/combat-log-analyzer/static/js/main.df905e11.chunk.js.map",
+    "runtime-main.js": "/combat-log-analyzer/static/js/runtime-main.1b20057a.js",
+    "runtime-main.js.map": "/combat-log-analyzer/static/js/runtime-main.1b20057a.js.map",
     "static/css/2.4e8b1831.chunk.css": "/combat-log-analyzer/static/css/2.4e8b1831.chunk.css",
-    "static/js/2.7c32c97b.chunk.js": "/combat-log-analyzer/static/js/2.7c32c97b.chunk.js",
-    "static/js/2.7c32c97b.chunk.js.map": "/combat-log-analyzer/static/js/2.7c32c97b.chunk.js.map",
+    "static/js/2.90f1f7fe.chunk.js": "/combat-log-analyzer/static/js/2.90f1f7fe.chunk.js",
+    "static/js/2.90f1f7fe.chunk.js.map": "/combat-log-analyzer/static/js/2.90f1f7fe.chunk.js.map",
     "index.html": "/combat-log-analyzer/index.html",
-    "precache-manifest.dea54912803fa3e2054969eb3fc35307.js": "/combat-log-analyzer/precache-manifest.dea54912803fa3e2054969eb3fc35307.js",
+    "precache-manifest.2cf718b9d8dc3036b720b8887c38ee73.js": "/combat-log-analyzer/precache-manifest.2cf718b9d8dc3036b720b8887c38ee73.js",
     "service-worker.js": "/combat-log-analyzer/service-worker.js",
     "static/css/2.4e8b1831.chunk.css.map": "/combat-log-analyzer/static/css/2.4e8b1831.chunk.css.map",
-    "static/js/2.7c32c97b.chunk.js.LICENSE.txt": "/combat-log-analyzer/static/js/2.7c32c97b.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/combat-log-analyzer/static/media/outline-icons.ef60a4f6.woff"
+    "static/js/2.90f1f7fe.chunk.js.LICENSE.txt": "/combat-log-analyzer/static/js/2.90f1f7fe.chunk.js.LICENSE.txt",
+    "static/media/baron_geddon.jpg": "/combat-log-analyzer/static/media/baron_geddon.4e1abcbf.jpg",
+    "static/media/semantic.min.css": "/combat-log-analyzer/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/broodlord_lashlayer.jpg": "/combat-log-analyzer/static/media/broodlord_lashlayer.c570062b.jpg",
+    "static/media/chromaggus.jpg": "/combat-log-analyzer/static/media/chromaggus.96dde691.jpg",
+    "static/media/ebonroc.jpg": "/combat-log-analyzer/static/media/ebonroc.df52eb15.jpg",
+    "static/media/firemaw.jpg": "/combat-log-analyzer/static/media/firemaw.b6d7891e.jpg",
+    "static/media/flamegor.jpg": "/combat-log-analyzer/static/media/flamegor.05d6a454.jpg",
+    "static/media/garr.jpg": "/combat-log-analyzer/static/media/garr.d9b96c22.jpg",
+    "static/media/gehennas.jpg": "/combat-log-analyzer/static/media/gehennas.ba1b4831.jpg",
+    "static/media/golemagg_the_incinerator.jpg": "/combat-log-analyzer/static/media/golemagg_the_incinerator.61d2d3f1.jpg",
+    "static/media/lucifron.jpg": "/combat-log-analyzer/static/media/lucifron.d4c212f1.jpg",
+    "static/media/magmadar.jpg": "/combat-log-analyzer/static/media/magmadar.229b89ec.jpg",
+    "static/media/majordomo_executus.jpg": "/combat-log-analyzer/static/media/majordomo_executus.5f156c7a.jpg",
+    "static/media/nefarian.jpg": "/combat-log-analyzer/static/media/nefarian.4ddcd608.jpg",
+    "static/media/ragnaros.jpg": "/combat-log-analyzer/static/media/ragnaros.c5519f58.jpg",
+    "static/media/razorgore_the_untamed.jpg": "/combat-log-analyzer/static/media/razorgore_the_untamed.faffde6c.jpg",
+    "static/media/shazzrah.jpg": "/combat-log-analyzer/static/media/shazzrah.0e9a29e2.jpg",
+    "static/media/sulfuron_harbinger.jpg": "/combat-log-analyzer/static/media/sulfuron_harbinger.a6943d51.jpg",
+    "static/media/vaelastrasz_the_corrupt.jpg": "/combat-log-analyzer/static/media/vaelastrasz_the_corrupt.28e34aa2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1363f2eb.js",
+    "static/js/runtime-main.1b20057a.js",
     "static/css/2.4e8b1831.chunk.css",
-    "static/js/2.7c32c97b.chunk.js",
-    "static/js/main.f4267727.chunk.js"
+    "static/js/2.90f1f7fe.chunk.js",
+    "static/js/main.df905e11.chunk.js"
   ]
 }
