@@ -1,17 +1,21 @@
-import druidIcon from './druid.png'
-import hunterIcon from './hunter.png'
-import warlockIcon from './warlock.png'
-import mageIcon from './mage.png'
-import paladinIcon from './paladin.png'
-import rogueIcon from './rogue.png'
-import warriorIcon from './warrior.png'
-import priestIcon from './priest.png'
+import druid from './druid.png'
+import hunter from './hunter.png'
+import warlock from './warlock.png'
+import mage from './mage.png'
+import paladin from './paladin.png'
+import rogue from './rogue.png'
+import warrior from './warrior.png'
+import priest from './priest.png'
 
-export const druid = druidIcon
-export const hunter = hunterIcon
-export const warlock = warlockIcon
-export const mage = mageIcon
-export const paladin = paladinIcon
-export const rogue = rogueIcon
-export const warrior = warriorIcon
-export const priest = priestIcon
+const ClassIcons = {
+  druid,
+  hunter,
+  warlock,
+  mage,
+  paladin,
+  rogue,
+  warrior,
+  priest,
+}
+
+export default ClassIcons

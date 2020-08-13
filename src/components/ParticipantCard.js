@@ -2,27 +2,7 @@
 import React from 'react'
 import _ from 'lodash'
 import { Card, Image, Label } from 'semantic-ui-react'
-import {
-  druid,
-  hunter,
-  warlock,
-  paladin,
-  priest,
-  rogue,
-  warrior,
-  mage,
-} from '../assets/class_icons'
-
-const IMAGES = {
-  druid,
-  hunter,
-  warlock,
-  paladin,
-  priest,
-  rogue,
-  warrior,
-  mage,
-}
+import ClassIcons from '../assets/class_icons'
 
 const ParticipantCard = ({
   participant,
@@ -43,18 +23,19 @@ const ParticipantCard = ({
     return { color: 'grey' }
   }
 
+  const cardProps = {
+    raised: true,
+    link: true,
+    ...(_.includes(selectedParticipants, participant) && {
+      color: 'red',
+    }),
+  }
+
   return (
-    <Card
-      raised
-      link
-      {...(_.includes(selectedParticipants, participant.id)
-        ? { color: 'red' }
-        : {})}
-      onClick={() => setSelectedParticipant(participant.id)}
-    >
+    <Card {...cardProps} onClick={() => setSelectedParticipant(participant)}>
       <Card.Content>
         <Image
-          src={IMAGES[_.toLower(participant.class)]}
+          src={ClassIcons[_.toLower(participant.type)]}
           style={{ backgroundColor: 'black' }}
           circular
           size="mini"

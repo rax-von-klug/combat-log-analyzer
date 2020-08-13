@@ -18,7 +18,7 @@ const ReportCodeEntry = () => {
   const [{ loading }, executeGet] = useAxios(
     {
       url:
-        'https://run.mocky.io/v3/8884eb4b-32df-42d9-80a1-3276a902d870?mock-delay=10s',
+        'https://run.mocky.io/v3/a1d9c4bb-a5b5-493e-aff4-d945754e0218?mock-delay=10s',
       method: 'GET',
     },
     { manual: true },

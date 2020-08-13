@@ -4,7 +4,7 @@ const ReportContext = createContext(null)
 
 // eslint-disable-next-line react/prop-types
 const ReportProvider = ({ children }) => {
-  const initialReport = { raid: { name: '', encounters: [], participants: [] } }
+  const initialReport = { code: '', fights: [], friendlies: [] }
   const [report, setReport] = useState(initialReport)
 
   const updateReport = (value) => {

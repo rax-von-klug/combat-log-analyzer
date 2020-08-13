@@ -13,10 +13,15 @@ const AnalysisSelection = () => {
   })
   const { report } = useContext(ReportContext)
 
-  const handleEncounterSelected = (encounter) => {
+  const handleEncountersSelected = (encounter) => {
+    console.log('SELECT ENCOUNTER', encounter)
+    console.log('SELECTED ENCOUNTERS', selected.encounters)
     if (_.includes(selected.encounters, encounter)) {
       setSelection({
-        encounters: _.filter(selected.encounters, (id) => id !== encounter),
+        encounters: _.filter(
+          selected.encounters,
+          (x) => x.boss !== encounter.boss,
+        ),
         participants: selected.participants,
       })
     } else {
@@ -31,7 +36,10 @@ const AnalysisSelection = () => {
     if (_.includes(selected.participants, raider)) {
       setSelection({
         encounters: selected.encounters,
-        participants: _.filter(selected.participants, (id) => id !== raider),
+        participants: _.filter(
+          selected.participants,
+          (x) => x.guid !== raider.guid,
+        ),
       })
     } else {
       setSelection({
@@ -44,13 +52,14 @@ const AnalysisSelection = () => {
   return (
     <div>
       <Encounters
-        handleEncounterSelected={handleEncounterSelected}
-        encounters={report.raid.encounters}
+        encounters={report.fights}
+        selectedEncounters={selected.encounters}
+        handleEncountersSelected={handleEncountersSelected}
       />
       <Participants
-        handleParticipantsSelected={handleParticipantsSelected}
-        participants={report.raid.participants}
+        participants={report.friendlies}
         selectedParticipants={selected.participants}
+        handleParticipantsSelected={handleParticipantsSelected}
       />
       <Divider />
       <Segment basic textAlign="center">

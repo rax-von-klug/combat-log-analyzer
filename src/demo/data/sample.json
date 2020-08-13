@@ -1,0 +1,415 @@
+{
+  "code": "AAAAA",
+  "fights": [
+    {
+      "id": 2,
+      "start_time": 353370,
+      "end_time": 378053,
+      "boss": 610,
+      "name": "Razorgore the Untamed",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 2,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    },
+    {
+      "id": 4,
+      "start_time": 547010,
+      "end_time": 591629,
+      "boss": 611,
+      "name": "Vaelastrasz the Corrupt",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 3,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    },
+    {
+      "id": 7,
+      "start_time": 1186073,
+      "end_time": 1256896,
+      "boss": 612,
+      "name": "Broodlord Lashlayer",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 3,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    },
+    {
+      "id": 11,
+      "start_time": 1631415,
+      "end_time": 1740313,
+      "boss": 613,
+      "name": "Firemaw",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 3,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    },
+    {
+      "id": 19,
+      "start_time": 2504460,
+      "end_time": 2581399,
+      "boss": 614,
+      "name": "Ebonroc",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 3,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    },
+    {
+      "id": 20,
+      "start_time": 2663157,
+      "end_time": 2727607,
+      "boss": 615,
+      "name": "Flamegor",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 3,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    },
+    {
+      "id": 23,
+      "start_time": 2916690,
+      "end_time": 3080370,
+      "boss": 616,
+      "name": "Chromaggus",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 3,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    },
+    {
+      "id": 25,
+      "start_time": 3431088,
+      "end_time": 3637689,
+      "boss": 617,
+      "name": "Nefarian",
+      "size": 40,
+      "difficulty": 3,
+      "kill": true,
+      "partial": 2,
+      "hasWorldBuffs": true,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "lastPhaseForPercentageDisplay": 0,
+      "maps": []
+    }
+  ],
+  "friendlies": [
+    {
+      "name": "Elißabeth",
+      "id": 17,
+      "guid": 19030306,
+      "type": "Warlock",
+      "score": 48
+    },
+    {
+      "name": "Amatha",
+      "id": 42,
+      "guid": 461534,
+      "type": "Druid",
+      "score": 79
+    },
+    {
+      "name": "Mariselottie",
+      "id": 41,
+      "guid": 18218737,
+      "type": "Mage",
+      "score": 92
+    },
+    {
+      "name": "Pwnbeard",
+      "id": 7,
+      "guid": 6246192,
+      "type": "Priest",
+      "score": 93
+    },
+    {
+      "name": "Rumholm",
+      "id": 14,
+      "guid": 15683568,
+      "type": "Warrior",
+      "score": 59
+    },
+    {
+      "name": "Wolt",
+      "id": 28,
+      "guid": 19444436,
+      "type": "Hunter",
+      "score": 29
+    },
+    {
+      "name": "Nepter",
+      "id": 31,
+      "guid": 8029391,
+      "type": "Mage",
+      "score": 86
+    },
+    {
+      "name": "Yunu",
+      "id": 29,
+      "guid": 4811314,
+      "type": "Priest",
+      "score": 81
+    },
+    {
+      "name": "Brutil",
+      "id": 40,
+      "guid": 10641925,
+      "type": "Rogue",
+      "score": 82
+    },
+    {
+      "name": "Seio",
+      "id": 30,
+      "guid": 7403235,
+      "type": "Warrior",
+      "score": 77
+    },
+    {
+      "name": "Kurez",
+      "id": 16,
+      "guid": 11674225,
+      "type": "Paladin",
+      "score": 82
+    },
+    {
+      "name": "Serated",
+      "id": 2,
+      "guid": 597981,
+      "type": "Rogue",
+      "score": 36
+    },
+    {
+      "name": "Archybald",
+      "id": 8,
+      "guid": 699488,
+      "type": "Warrior",
+      "score": 78
+    },
+    {
+      "name": "Mirithal",
+      "id": 23,
+      "guid": 3066620,
+      "type": "Priest",
+      "score": 60
+    },
+    {
+      "name": "Bowbruh",
+      "id": 19,
+      "guid": 20009779,
+      "type": "Hunter",
+      "score": 80
+    },
+    {
+      "name": "Thebigsanta",
+      "id": 26,
+      "guid": 20642161,
+      "type": "Mage",
+      "score": 41
+    },
+    {
+      "name": "Gannikus",
+      "id": 1,
+      "guid": 17941318,
+      "type": "Warrior",
+      "score": 63
+    },
+    {
+      "name": "Abrams",
+      "id": 20,
+      "guid": 631565,
+      "type": "Warrior",
+      "score": 52
+    },
+    {
+      "name": "Faelior",
+      "id": 6,
+      "guid": 443770,
+      "type": "Warrior",
+      "score": 84
+    },
+    {
+      "name": "Westwind",
+      "id": 12,
+      "guid": 8356,
+      "type": "Druid",
+      "score": 68
+    },
+    {
+      "name": "Liir",
+      "id": 15,
+      "guid": 19301529,
+      "type": "Paladin",
+      "score": 82
+    },
+    {
+      "name": "Begolas",
+      "id": 24,
+      "guid": 954212,
+      "type": "Paladin",
+      "score": 47
+    },
+    {
+      "name": "Notlegolas",
+      "id": 9,
+      "guid": 1024217,
+      "type": "Warrior",
+      "score": 43
+    },
+    {
+      "name": "Abheykumar",
+      "id": 43,
+      "guid": 17903624,
+      "type": "Priest",
+      "score": 87
+    },
+    {
+      "name": "Grimstone",
+      "id": 39,
+      "guid": 545604,
+      "type": "Priest",
+      "score": 78
+    },
+    {
+      "name": "Kylorent",
+      "id": 21,
+      "guid": 17896526,
+      "type": "Mage",
+      "score": 23
+    },
+    {
+      "name": "Brutalj",
+      "id": 72,
+      "guid": 4867023,
+      "type": "Warlock",
+      "score": 69
+    },
+    {
+      "name": "Azshandriand",
+      "id": 38,
+      "guid": 18090906,
+      "type": "Rogue",
+      "score": 63
+    },
+    {
+      "name": "Springblade",
+      "id": 25,
+      "guid": 576668,
+      "type": "Rogue",
+      "score": 64
+    },
+    {
+      "name": "Raidfinder",
+      "id": 37,
+      "guid": 7572330,
+      "type": "Mage",
+      "score": 51
+    },
+    {
+      "name": "Falcorn",
+      "id": 3,
+      "guid": 6799192,
+      "type": "Hunter",
+      "score": 88
+    },
+    {
+      "name": "Nullite",
+      "id": 13,
+      "guid": 528479,
+      "type": "Paladin",
+      "score": 82
+    },
+    {
+      "name": "Ivory",
+      "id": 5,
+      "guid": 452728,
+      "type": "Warrior",
+      "score": 52
+    },
+    {
+      "name": "Watërs",
+      "id": 10,
+      "guid": 5092464,
+      "type": "Warrior",
+      "score": 77
+    },
+    {
+      "name": "Dmoney",
+      "id": 18,
+      "guid": 3095960,
+      "type": "Rogue",
+      "score": 48
+    },
+    {
+      "name": "Slayerz",
+      "id": 27,
+      "guid": 424803,
+      "type": "Druid",
+      "score": 86
+    },
+    {
+      "name": "Dephenedra",
+      "id": 22,
+      "guid": 21367927,
+      "type": "Warlock",
+      "score": 54
+    },
+    {
+      "name": "Frizz",
+      "id": 33,
+      "guid": 3222519,
+      "type": "Warlock",
+      "score": 87
+    },
+    {
+      "name": "Blinky",
+      "id": 32,
+      "guid": 4218067,
+      "type": "Mage",
+      "score": 80
+    },
+    {
+      "name": "Xanark",
+      "id": 53,
+      "guid": 4220818,
+      "type": "Priest",
+      "score": 82
+    }
+  ]
+}
