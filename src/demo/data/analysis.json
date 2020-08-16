@@ -1,0 +1,282 @@
+{
+	"code": "AAAAAAA",
+	"raid": {
+		"name": "Blackwing Lair",
+		"encounters": [
+			{
+				"id": 1,
+				"name": "Razorgore the Untamed"
+			},
+			{
+				"id": 2,
+				"name": "Vaelastrasz the Corrupt"
+			},
+			{
+				"id": 3,
+				"name": "Broodlord Lashlayer"
+			},
+			{
+				"id": 4,
+				"name": "Firemaw"
+			},
+			{
+				"id": 5,
+				"name": "Ebonroc"
+			},
+			{
+				"id": 6,
+				"name": "Flamegor"
+			},
+			{
+				"id": 7,
+				"name": "Chromaggus"
+			},
+			{
+				"id": 8,
+				"name": "Nefarian"
+			}
+		],
+		"participants": [
+			{
+				"id": 1,
+				"name": "Bowbruh",
+				"class": "Hunter",
+				"score": 94
+			},
+			{
+				"id": 2,
+				"name": "Brutil",
+				"class": "Rogue",
+				"score": 94
+			},
+			{
+				"id": 3,
+				"name": "Seio",
+				"class": "Warrior",
+				"score": 93
+			},
+			{
+				"id": 4,
+				"name": "Brutalj",
+				"class": "Warlock",
+				"score": 91
+			},
+			{
+				"id": 5,
+				"name": "Selica",
+				"class": "Hunter",
+				"score": 91
+			},
+			{
+				"id": 6,
+				"name": "Falcorn",
+				"class": "Hunter",
+				"score": 90
+			},
+			{
+				"id": 7,
+				"name": "Nepter",
+				"class": "Mage",
+				"score": 90
+			},
+			{
+				"id": 8,
+				"name": "Westwind",
+				"class": "Druid",
+				"score": 88
+			},
+			{
+				"id": 9,
+				"name": "Azshandriand",
+				"class": "Rogue",
+				"score": 87
+			},
+			{
+				"id": 10,
+				"name": "Dephenedra",
+				"class": "Warlock",
+				"score": 87
+			},
+			{
+				"id": 11,
+				"name": "Frizz",
+				"class": "Warlock",
+				"score": 85
+			},
+			{
+				"id": 12,
+				"name": "Mariselotte",
+				"class": "Mage",
+				"score": 85
+			},
+			{
+				"id": 13,
+				"name": "Mirithal",
+				"class": "Priest",
+				"score": 85
+			},
+			{
+				"id": 14,
+				"name": "Raidfinder",
+				"class": "Mage",
+				"score": 84
+			},
+			{
+				"id": 15,
+				"name": "Blinky",
+				"class": "Mage",
+				"score": 82
+			},
+			{
+				"id": 16,
+				"name": "Serated",
+				"class": "Rogue",
+				"score": 82
+			},
+			{
+				"id": 17,
+				"name": "Emvp",
+				"class": "Warlock",
+				"score": 81
+			},
+			{
+				"id": 18,
+				"name": "Watërs",
+				"class": "Warrior",
+				"score": 78
+			},
+			{
+				"id": 19,
+				"name": "Dmoney",
+				"class": "Rogue",
+				"score": 76
+			},
+			{
+				"id": 20,
+				"name": "Rumholm",
+				"class": "Warrior",
+				"score": 75
+			},
+			{
+				"id": 21,
+				"name": "Springblade",
+				"class": "Rogue",
+				"score": 74
+			},
+			{
+				"id": 22,
+				"name": "Gannikus",
+				"class": "Warrior",
+				"score": 73
+			},
+			{
+				"id": 23,
+				"name": "Abrams",
+				"class": "Warrior",
+				"score": 61
+			},
+			{
+				"id": 24,
+				"name": "Ivory",
+				"class": "Warrior",
+				"score": 57
+			},
+			{
+				"id": 25,
+				"name": "Thebigsanta",
+				"class": "Mage",
+				"score": 51
+			},
+			{
+				"id": 26,
+				"name": "Faelior",
+				"class": "Warrior",
+				"score": 45
+			},
+			{
+				"id": 27,
+				"name": "Begolas",
+				"class": "Paladin",
+				"score": 39
+			},
+			{
+				"id": 28,
+				"name": "Kylorent",
+				"class": "Mage",
+				"score": 35
+			},
+			{
+				"id": 30,
+				"name": "Archybald",
+				"class": "Warrior",
+				"score": 84
+			},
+			{
+				"id": 31,
+				"name": "Pwnbeard",
+				"class": "Priest",
+				"score": 95
+			},
+			{
+				"id": 32,
+				"name": "Rogni",
+				"class": "Paladin",
+				"score": 88
+			},
+			{
+				"id": 33,
+				"name": "Abheykumar",
+				"class": "Priest",
+				"score": 86
+			},
+			{
+				"id": 34,
+				"name": "Yunu",
+				"class": "Priest",
+				"score": 84
+			},
+			{
+				"id": 35,
+				"name": "Jules",
+				"class": "Paladin",
+				"score": 83
+			},
+			{
+				"id": 36,
+				"name": "Liir",
+				"class": "Paladin",
+				"score": 83
+			},
+			{
+				"id": 37,
+				"name": "Nullite",
+				"class": "Paladin",
+				"score": 83
+			},
+			{
+				"id": 38,
+				"name": "Xanark",
+				"class": "Priest",
+				"score": 78
+			},
+			{
+				"id": 39,
+				"name": "Amatha",
+				"class": "Druid",
+				"score": 77
+			},
+			{
+				"id": 40,
+				"name": "Slayerz",
+				"class": "Druid",
+				"score": 77
+			},
+			{
+				"id": 41,
+				"name": "Grimstone",
+				"class": "Priest",
+				"score": 76
+			}
+		]
+	}
+}
