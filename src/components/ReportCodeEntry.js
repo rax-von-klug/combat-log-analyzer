@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react'
-import useAxios from 'axios-hooks'
+import _ from 'lodash'
+import { gql, useLazyQuery } from '@apollo/client'
 import {
   Card,
   Input,
@@ -10,35 +11,71 @@ import {
 } from 'semantic-ui-react'
 import { ReportContext } from '../providers/ReportProvider'
 
+const GET_REPORTDATA = gql`
+  query GetReportData($code: String!) {
+    reportData {
+      report(code: $code) {
+        code
+        masterData {
+          actors(type: "Player") {
+            id
+            gameID
+            name
+            subType
+          }
+        }
+        fights(killType: Encounters) {
+          id
+          name
+          startTime
+          endTime
+        }
+        startTime
+        endTime
+      }
+    }
+  }
+`
+
 const ReportCodeEntry = () => {
-  const [logCode, setLogCode] = useState('')
+  const [input, setInput] = useState('')
   const [hasError, setHasError] = useState(false)
   const { updateReport } = useContext(ReportContext)
+  const [getReportData, { loading }] = useLazyQuery(GET_REPORTDATA, {
+    onCompleted: ({
+      code,
+      reportData: {
+        report: {
+          fights,
+          masterData: { actors },
+        },
+      },
+    }) => {
+      const report = {
+        code,
+        fights,
+        friendlies: _.filter(actors, (actor) => actor.subType !== 'Unknown'),
+      }
 
-  const [{ loading }, executeGet] = useAxios(
-    {
-      url:
-        'https://run.mocky.io/v3/a1d9c4bb-a5b5-493e-aff4-d945754e0218?mock-delay=10s',
-      method: 'GET',
+      updateReport(report)
     },
-    { manual: true },
-  )
+  })
 
-  const handleOnClick = async () => {
+  const handleOnClick = () => {
     const regex = RegExp(
       '^(?<url>https://classic.warcraftlogs.com/reports/){0,1}(?<code>[a-zA-Z0-9]{16}[#]{0,1}[a-zA-Z0-9#=&-/]{0,})$',
     )
-    const matches = regex.exec(logCode)
+    const matches = regex.exec(input)
 
     if (!matches) {
       setHasError(true)
       return
     }
 
-    const reportCode = matches[1]
+    const reportCode = matches.groups.code
     setHasError(false)
-    const { data: report } = await executeGet({ data: reportCode })
-    updateReport(report)
+
+    getReportData({ variables: { code: reportCode } })
   }
 
   return (
@@ -59,7 +96,7 @@ const ReportCodeEntry = () => {
               style={{ width: '75%' }}
               action={{ icon: 'search', onClick: handleOnClick }}
               onChange={(e, data) => {
-                setLogCode(data.value)
+                setInput(data.value)
               }}
               error={hasError}
               placeholder="https://classic.warcraftlogs.com/reports/<report code>"

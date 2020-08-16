@@ -19,7 +19,7 @@ const EncounterCard = ({
     circular: true,
     floatd: 'left',
     size: 'mini',
-    src: BossIcons[encounter.boss],
+    src: BossIcons[encounter.name],
   }
   return (
     <Card {...cardProps} onClick={() => setSelectedEncounters(encounter)}>

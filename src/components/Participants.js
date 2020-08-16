@@ -34,7 +34,7 @@ const Participants = ({
         </Segment>
       )}
       {participants.length > 0 && (
-        <Segment stacked>
+        <Segment stacked textAlign="center">
           <CardGroup itemsPerRow={5}>{cards}</CardGroup>
         </Segment>
       )}
