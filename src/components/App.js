@@ -1,11 +1,10 @@
 import React from 'react'
-import { Grid } from 'semantic-ui-react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { ApolloProvider } from '@apollo/client'
 
-import TopNav from './TopNav'
-import ReportCodeEntry from './ReportCodeEntry'
-import { ReportProvider } from '../providers/ReportProvider'
-import AnalysisSelection from './AnalysisSelection'
+import NavBar from './NavBar'
+import Home from './Home'
+import Analyze from './Analyze'
 import { useWarcraftLogsClient } from '../hooks/useWarcraftLogsClient'
 
 const App = () => {
@@ -13,19 +12,13 @@ const App = () => {
 
   return (
     <ApolloProvider client={client}>
-      <TopNav />
-      <Grid style={{ marginTop: '2em' }}>
-        <Grid.Row>
-          <Grid.Column width={3}></Grid.Column>
-          <Grid.Column width={10}>
-            <ReportProvider>
-              <ReportCodeEntry />
-              <AnalysisSelection />
-            </ReportProvider>
-          </Grid.Column>
-          <Grid.Column width={3}></Grid.Column>
-        </Grid.Row>
-      </Grid>
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/analyze" exact component={Analyze} />
+        </Switch>
+      </Router>
     </ApolloProvider>
   )
 }

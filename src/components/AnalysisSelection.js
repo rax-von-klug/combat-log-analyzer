@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react'
 import _ from 'lodash'
 import { Divider, Segment, Button } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 import Participants from './Participants'
 import Encounters from './Encounters'
@@ -14,8 +15,6 @@ const AnalysisSelection = () => {
   const { report } = useContext(ReportContext)
 
   const handleEncountersSelected = (encounter) => {
-    console.log('SELECT ENCOUNTER', encounter)
-    console.log('SELECTED ENCOUNTERS', selected.encounters)
     if (_.includes(selected.encounters, encounter)) {
       setSelection({
         encounters: _.filter(
@@ -63,7 +62,18 @@ const AnalysisSelection = () => {
       />
       <Divider />
       <Segment basic textAlign="center">
-        <Button animated="fade" primary>
+        <Button
+          animated="fade"
+          primary
+          as={Link}
+          to={{
+            pathname: '/analyze',
+            state: {
+              encounters: selected.encounters,
+              participants: selected.participants,
+            },
+          }}
+        >
           <Button.Content hidden>
             {`${selected.encounters.length} encounters / ${selected.participants.length} participants`}
           </Button.Content>
